@@ -1,11 +1,12 @@
 {
   "env": {
     "browser": true,
-    "node": false
+    "node": true,
+    "amd": true
   },
   "extends": [
     /** @see https://eslint.vuejs.org/rules/ */
-    "plugin:vue/vue3-recommended"
+    // "plugin:vue/vue3-recommended"
   ],
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
