@@ -11,6 +11,7 @@ const config = {
      * For e2e tests, have vitest search only in the project root 'tests' folder.
      */
     include: ['./tests/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    environment: 'happy-dom',
 
     /**
      * The default timeout of 5000ms is sometimes not enough for playwright.
